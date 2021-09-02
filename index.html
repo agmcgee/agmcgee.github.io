@@ -5,7 +5,37 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <nav id="navbar" class="nav">
+        <div class="Navbar">
+            <!-- <div class="Navbar__Link Navbar__Link-brand">
+                Website title
+            </div> -->
+            <div class="Navbar__Link Navbar__Link-toggle">
+                <i class="fa fa-bars"></i>
+            </div>
+            <!-- <nav class="Navbar__Items">
+                <div class="Navbar__Link">
+                    Link
+                </div>
+                <div class="Navbar__Link">
+                    Link
+                </div>
+                <div class="Navbar__Link">
+                    Link
+                </div>
+            </nav> -->
+            <nav class="Navbar__Items Navbar__Items--right">
+                <div class="Navbar__Link">
+                    <a href="#welcome-section">About</a>
+                </div>
+                <div class="Navbar__Link">
+                    <a href="#projects">Work</a>
+                </div>
+                <div class="Navbar__Link">
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+        <!-- <nav id="navbar" class="nav">
             <ul class="nav-list">
                 <li>
                     <a href="#welcome-section">About</a>
@@ -17,7 +47,7 @@
                     <a href="#contact">Contact</a>
                 </li>
             </ul>
-        </nav>
+        </nav> -->
         <section id="welcome-section" class="welcome-section">
             <h1 class="typewriter">
                 Hello World, I am Andy McGee
@@ -26,7 +56,7 @@
         </section>
         <section id="projects" class="projects-section">
             <h2 class="projects-section-header">
-                Some things I've been working on
+                Some of my projects
             </h2>
             <div class="projects-grid">
                 <a href="http://agmcgee.pythonanywhere.com/" target="_blank" class="project project-tile">
@@ -130,5 +160,14 @@
 
             </div> 
         </section>
+        <script>
+            function classToggle() {
+                const navs = document.querySelectorAll('.Navbar__Items')
+    
+                navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+            }
+    
+            document.querySelector('.Navbar__Link-toggle').addEventListener('click', classToggle)
+        </script>
     </body>
 </html>
