@@ -127,39 +127,6 @@
             }
         }
         
-        /* .nav {
-            display: flex;
-            justify-content: flex-end;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background: var(--main-red);
-            box-shadow: 0 2px 0 rgba(0,0,0,0.4);
-            z-index: 10;
-        }
-
-        .nav-list {
-            display: flex;
-            margin-right: 2rem;
-        }
-        @media (max-width: 28.75em) {
-            .nav {
-                justify-content: center;
-            }
-            .nav-list {
-                margin: 0 1rem;
-            }
-        }
-        .nav-list a {
-            display: block;
-            font-size: 2.2rem;
-            padding: 2rem;
-        }
-        .nav-list a:hover {
-            background: var(--main-blue);
-        } */
-        
         .welcome-section {
             display: flex;
             flex-direction: column;
@@ -220,7 +187,6 @@
         .projects-section-header {
             max-width: 640px;
             margin: 0 auto 6rem auto;
-            /* border-bottom: 0.2rem solid var(--main-white); */
         }
         @media (max-width: 28.75em){
             .projects-section-header {
@@ -295,8 +261,7 @@
             align-items: center;
             text-align: center;
             width: 100%;
-            height: 80vh;
-            padding: 0 2rem;
+            height: 100vh;
             background: var(--main-gray);
         }
         .contact-section-header > h2 {
@@ -341,7 +306,7 @@
         }
 
         .form-control {
-            width: 600px;
+            width: 70vw;
             background: transparent;
             border: none;
             outline: none;
@@ -376,7 +341,7 @@
             }
 
             .form-control {
-                width: 80vw;
+                width: 70vw;
                 background: transparent;
                 border: none;
                 outline: none;
