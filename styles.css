@@ -390,8 +390,17 @@
             }
 
             .typewriter {
-                font-size: 160%;
+                font-size: 130%;
             }
+
+            @keyframes typewriter {
+                from {
+                    width: 0;
+                }
+                to {
+                    width: 320px;
+                }
+             }
         }
 
 
