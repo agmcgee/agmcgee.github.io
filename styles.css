@@ -369,7 +369,7 @@
             background-color: #f44336;
             cursor: pointer;
         }
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 480px) {
             .contact-section-header h2 {
                 font-size: 30px;
                 padding-top: 45px;
