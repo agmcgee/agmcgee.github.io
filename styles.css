@@ -376,7 +376,7 @@
             }
 
             .form-control {
-                width: 400px;
+                width: 80vw;
                 background: transparent;
                 border: none;
                 outline: none;
@@ -387,6 +387,10 @@
             }
             input {
                 height: 25px;
+            }
+
+            .typewriter {
+                font-size: 160%;
             }
         }
 
