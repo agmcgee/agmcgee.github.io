@@ -98,7 +98,7 @@
             display: none;
         }
         
-        @media (max-width: 480px) {
+        @media (max-width: 768px) {
             .Navbar__Items,
             .Navbar {
                 flex-direction: column;
@@ -369,7 +369,7 @@
             background-color: #f44336;
             cursor: pointer;
         }
-        @media screen and (max-width: 480px) {
+        @media (max-width: 768px) {
             .contact-section-header h2 {
                 font-size: 30px;
                 padding-top: 45px;
